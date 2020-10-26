@@ -20,6 +20,15 @@
     "webpack-dev-server": "^3.11.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.5",
+    "eslint": "^7.12.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
     "optimize-css-assets-webpack-plugin": "^5.0.4"
   },
   "scripts": {
@@ -46,5 +55,8 @@
       "not dead",
       "not op_mini all"
     ]
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base"
   }
 }
