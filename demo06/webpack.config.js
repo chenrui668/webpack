@@ -48,13 +48,11 @@ module.exports = {
                     // }
                     {
                         loader: 'postcss-loader',
-                        // options: {
-                        //     ident: 'postcss',
-                        //     plugins: () => [
-                        //         // postcss的插件
-                        //         require('postcss-preset-env')()
-                        //     ]
-                        // }
+                        options: {
+                            postcssOptions: {
+                                plugins: [['postcss-preset-env',{}]]
+                            }
+                        }
                     }
                 ]
             }
