@@ -56,7 +56,7 @@ module.exports = {
     mode: 'development',
     // 开发服务器 devServer：用来自动化（自动编译，自动打包，自动打开浏览器，自动刷新浏览器。。。）
     // 特点: 只会在内存中编译打包，不会输出打包后的文件
-    // 启动devServer指令：npx webpack-dev-server
+    // 启动devServer指令：npx webpack serve
     devServer: {
         // 项目构建后路径
         contentBase: resolve(__dirname, 'build'),
